@@ -1,0 +1,147 @@
+.Teks{
+  font-family: Arial, sans-serif; 
+  font-size: 16px; 
+  font-weight: bold; 
+  color: black; 
+  text-align: center; 
+  text-transform: uppercase; 
+  line-height: 1.5; 
+  letter-spacing: 1px;
+}
+
+.TeksLain{
+    font-family: Arial, sans-serif; 
+    font-size: 16px; 
+    font-weight: bold; 
+    color: white; 
+    text-align: center; 
+    text-transform: uppercase; 
+    line-height: 1.5; 
+    letter-spacing: 1px;
+  }
+
+
+body{
+    margin: 0;
+}
+
+.Grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit);
+    grid-template-rows: repeat(auto-fit);
+    border: 1px solid black;
+}
+
+.Kuning{
+    background-color: yellow;
+    text-align: center;
+    padding: 60px;
+    grid-row: 1;
+    grid-column: 1;
+    border: 1px solid black;
+}
+
+.Hijau{
+    background-color: green;
+    text-align: center;
+    padding: 60px;
+    grid-row: 2;    
+    grid-column: 1;
+    border: 1px solid black;
+}
+
+.Merah{
+    background-color: red;
+    text-align: center;
+    padding: 60px;
+    grid-row: 3;
+    grid-column: 1;
+    border: 1px solid black;
+}
+
+.BiruTua{
+    background-color: darkblue;
+    text-align: center;
+    padding: 60px;
+    grid-row-start: 4;
+    grid-row-end: 6;
+    grid-column: 1;
+    border: 1px solid black;
+}
+
+.Hitam{
+    background-color: black;
+    text-align: center;
+    padding: 60px;
+    grid-row: 1;
+    grid-column-start: 2;
+    grid-column-end: 5;
+    border: 1px solid black;
+}
+
+.Coklat{
+    background-color: brown;
+    text-align: center;
+    padding: 60px;
+    grid-row: 2;
+    grid-column: 2;
+    border: 1px solid black;
+}
+
+.Putih{
+    background-color: white;
+    text-align: center;
+    padding: 60px;
+    grid-row: 3;
+    grid-column: 2;
+    border: 1px solid black;
+}
+
+.Abu{
+    background-color: grey;
+    text-align: center;
+    padding: 60px;
+    grid-row: 4;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    border: 1px solid black;
+}
+
+.Orange{
+    background-color: orange;
+    text-align: center;
+    padding: 60px;
+    grid-row: 5;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    border: 1px solid black;
+}
+
+.Pink{
+    background-color: palevioletred;
+    text-align: center;
+    padding: 60px;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    grid-column: 3;
+    border: 1px solid black;
+}
+
+.Biru{
+    background-color: lightblue;
+    text-align: center;
+    padding: 60px;
+    grid-row: 2;
+    grid-column: 4;
+    border: 1px solid black;
+}
+
+.Ungu{
+    background-color: purple;
+    text-align: center;
+    padding: 60px;
+    grid-row-start: 3;
+    grid-row-end: 6;
+    grid-column: 4;
+    border: 1px solid black;
+}
